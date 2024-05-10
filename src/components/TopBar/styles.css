@@ -1,0 +1,13 @@
+.topbar-appBar {
+  height: 60;
+  justify-content: center;
+}
+
+.setting {
+  display: flex;
+  align-items: baseline;
+}
+
+input {
+  margin-left: 10px;
+}

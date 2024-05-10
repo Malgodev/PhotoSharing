@@ -1,0 +1,22 @@
+.photo {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 60%;
+  padding: 30px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.adv-photo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.adv-photo span {
+  cursor: pointer;
+  font-size: 80px;
+  font-weight: bolder;
+  color: #1976d2;
+}

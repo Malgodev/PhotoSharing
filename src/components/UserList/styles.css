@@ -1,0 +1,22 @@
+.user-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.photo-count {
+  height: 1.25rem;
+  width: 1.25rem;
+  border-radius: 50%;
+  background-color: rgba(0, 128, 0, 0.7);
+  text-align: center;
+  color: whitesmoke;
+}
+
+.comment-count {
+  height: 1.25rem;
+  width: 1.25rem;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 0.7);
+  text-align: center;
+  color: whitesmoke;
+}
