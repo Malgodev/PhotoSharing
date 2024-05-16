@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./styles.css";
-import fecthModelData from "../../lib/fetchModelData";
+import { server } from "../../lib/fetchModelData";
 
 function CommentSection({ comments }) {
   const cmts =

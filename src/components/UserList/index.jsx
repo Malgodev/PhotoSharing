@@ -9,15 +9,17 @@ import {
 
 import "./styles.css";
 import { useState, useRef, useEffect } from "react";
-import server from "../../lib/server";
+import { server } from "../../lib/fetchModelData";
+
+
 
 function UserList() {
   const [loading, setLoading] = useState(true);
   const users = useRef(null);
   useEffect(() => {
-    server("https://rw3fh2-8081.csb.app/api/user/list").then(
+    server.fetchModel("https://rw3fh2-8081.csb.app/api/user/list").then(
       (result) => {
-        users.current = result.map((item) => (
+        users.current = result.data.map((item) => (
           <>
             <ListItem className="user-item">
               <Link to={`/users/${item._id}`}>
